@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="child1_container">
+            <div>
+                <h1 class="Calc_text">calc</h1>
+            </div>
+
+
+            <div class="theme_container">
+                <h5>THEME</h5>
+                <div>
+                    <div class="theme-toggle">
+                        <label for="theme_button">1  2  3</label>
+                        <button id="theme_button" class="theme_button" onclick="toggleTheme()">
+                            <div class="circle"></div>
+                        </button>
+                    </div>
+                </div>   
+            </div>
+
+
+        </div>
+        <div class="child2_container">
+            <input type="text" id="display" name="display" value="0" readonly>
+        </div>
+        <div class="child3_container">
+            <button class="num_btn" onclick="appendToDisplay('7')">7</button>
+            <button class="num_btn" onclick="appendToDisplay('8')">8</button>
+            <button class="num_btn" onclick="appendToDisplay('9')">9</button>
+            <button class="del_btn" onclick="deleteLast()">DEL</button>
+
+            <button class="num_btn" onclick="appendToDisplay('4')">4</button>
+            <button class="num_btn" onclick="appendToDisplay('5')">5</button>
+            <button class="num_btn" onclick="appendToDisplay('6')">6</button>
+            <button class="num_btn" onclick="appendToDisplay('+')">+</button>
+
+            <button class="num_btn" onclick="appendToDisplay('1')">1</button>
+            <button class="num_btn" onclick="appendToDisplay('2')">2</button>
+            <button class="num_btn" onclick="appendToDisplay('3')">3</button>
+            <button class="num_btn" onclick="appendToDisplay('-')">-</button>
+
+            <button class="num_btn" onclick="appendToDisplay('.')">.</button>
+            <button class="num_btn" onclick="appendToDisplay('0')">0</button>
+            <button class="num_btn" onclick="appendToDisplay('/')">/</button>
+            <button class="num_btn" id="mul_btn" onclick="appendToDisplay('*')">X</button>
+
+            <button id="num_opres" class="num_btn" onclick="clearDisplay()">RESET</button>
+            <button id="num_opequ" class="num_btn" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+</body>
+<script src="./Script.js" defer></script>
+
+</html>
