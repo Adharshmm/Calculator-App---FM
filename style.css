@@ -1,7 +1,6 @@
 * {
     font-family: "League Spartan", sans-serif;
     padding: 0px;
-    box-sizing:content-box;
 }
 .main_container {
     display: flex;
@@ -21,7 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-width: 100vh;
+    min-width: 100px;
     gap: 20px;
     padding-top: 80px;
 }
@@ -352,13 +351,40 @@ body.theme3 .theme_button{
 }
 
 
-@media only screen and (max-width:375px) {
+@media only screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .main_container {
+        width: 90%;
+    }
+
+    .child2_container {
+        height: 90px;
+    }
+
+    #display {
+        font-size: 30px;
+    }
+
+    .num_btn, .del_btn {
+        font-size: 24px;
+        padding: 8px 0;
+    }
+
+    .child3_container {
+        gap: 10px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
     body{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 375px;
-        height: 605px;
     }
     .main_container{
         width: 300px;
@@ -367,3 +393,6 @@ body.theme3 .theme_button{
         height: 90px;
     }
 }
+
+
+
