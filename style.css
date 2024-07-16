@@ -357,6 +357,8 @@ body.theme3 .theme_button{
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 375px;
+        height: 605px;
     }
     .main_container{
         width: 300px;

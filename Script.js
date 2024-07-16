@@ -22,7 +22,11 @@ function clearDisplay() {
 function calculateResult() {
     const display = document.getElementById('display');
     try {
-        display.value = eval(display.value);
+        if((display.value).includes('.')){
+        display.value = (eval(display.value)).toFixed(2);
+        }else{
+            display.value = eval(display.value);
+        }
     } catch (e) {
         display.value = 'Error';
     }

@@ -42,8 +42,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://your-solution-url.com)
+- Live Site URL: (https://adharshmm.github.io/Calculator-App---FM/)
 
 ## My process
 
@@ -94,4 +94,14 @@ By concentrating on these areas, I aim to enhance the quality and functionality 
 ## Author
 
 - Frontend Mentor - [@Adharshmm](https://www.frontendmentor.io/profile/Adharshmm)
+
+
+## Acknowledgments
+
+I would like to express my gratitude to the online communities and resources that provided invaluable assistance and inspiration throughout this project. Special thanks to:
+
+W3Schools: For their comprehensive guides and tutorials on CSS positioning properties, which were instrumental in the styling of the calculator app.
+MDN Web Docs: For their detailed documentation and examples on CSS Grid and Flexbox, which helped in creating a responsive layout.
+Various Online Forums and Articles: For the discussions and solutions that offered insights and troubleshooting tips during the development process.
+Their contributions have significantly enhanced my learning experience and the overall quality of this project.
 
